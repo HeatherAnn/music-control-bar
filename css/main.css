@@ -44,14 +44,10 @@ body {
 }
 
 .album {
-  width: 50px;
+  height: 100%;
   position: absolute;
   left: 0;
   top: 0;
-}
-
-.time {
-
 }
 
 .time-bar {
@@ -64,7 +60,7 @@ body {
   background-color: #aaa;
   position: absolute;
   bottom: 0;
-  left: 0;
+  left: 50px;
   width: 100%;
 }
 
@@ -84,11 +80,17 @@ body {
 /* END DON’T TOUCH ZONE */
 
 .time-lapsed {
+  position: absolute;
+  left: 60px;
+  bottom: 10px;
   font-size: .7rem;
 }
 
 .time-total {
+  position: absolute;
+  right: 5px;
   font-size: .7rem;
+  bottom: 10px;
 }
 
 .controls {
@@ -101,16 +103,19 @@ body {
 }
 
 .control-shuffle {
-  left: 0;
-  top: 0;
+  position: absolute;
+  left: 60px;
+  top: 5px;
 }
 
 .control-list {
   position: absolute;
   right: 0;
+  top: 5px;
 }
 
 .control-heart {
   position: absolute;
-  right: 0;
+  right: 25px;
+  top: 8px;
 }
